@@ -1,0 +1,33 @@
+@import "./components/AButton/AButton.css";
+@import "./components/Button/Button.css";
+@import "./components/Label/Label.css";
+@import "./components/Input/Input.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  height: 100dvh;
+}
+
+body {
+  height: 100dvh;
+  background-color: #f7f7f7;
+}
+
+main {
+  background-color: #f7f7f7;
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
